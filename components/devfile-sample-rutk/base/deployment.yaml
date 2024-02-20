@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rutk
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0036-tenant/tkrw-pr712-0075-0036-app/devfile-sample-rutk@sha256:719a56a7c8187827ae9b6e6f729aaba011cf37fd3a4ebb5231fee9741f6a8b3f
         name: my-nodejs
         ports:
         - containerPort: 3001
